@@ -1,0 +1,20 @@
+[project]
+name = "snake-mcts"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "root4036-ship-it",email = "root4036@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit (>=1.54.0,<2.0.0)",
+    "numpy (>=2.4.2,<3.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "snake_mcts", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
