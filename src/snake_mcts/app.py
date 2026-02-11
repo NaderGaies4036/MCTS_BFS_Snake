@@ -7,10 +7,9 @@ sys.path.append(str(root_path))
 
 import streamlit as st
 import time
-from snake_mcts.environnement import SnakeEnvironment 
-from snake_mcts.agent import MCTS
-from snake_mcts.util import safe_actions, find_path_bfs, grid_to_rgb
-
+from .agent import MCTS
+from .util import safe_actions, find_path_bfs, grid_to_rgb
+from .environnement import SnakeEnvironment
 # --- CONFIGURATION UI ---
 st.set_page_config(layout="centered", page_title="MCTS Snake Project")
 st.title("MCTS Snake — Architecture Modulaire")

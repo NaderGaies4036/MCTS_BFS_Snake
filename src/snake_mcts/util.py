@@ -1,6 +1,6 @@
 import numpy as np
 from collections import deque
-from snake_mcts.environnement import ACTIONS
+from .environnement import ACTIONS
 
 def safe_actions(env):
     """

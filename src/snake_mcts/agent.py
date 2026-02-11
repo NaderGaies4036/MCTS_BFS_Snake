@@ -1,7 +1,7 @@
 import math
 import random
 import numpy as np
-from snake_mcts.environnement import ACTIONS
+from .environnement import ACTIONS
 
 class MCTSNode:
     """Représente un état dans l'arbre de recherche MCTS."""
